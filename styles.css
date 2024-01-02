@@ -1,0 +1,24 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.home {
+    background-color: green;
+    color: white;
+}
+
+.recipes {
+    list-style: none;
+    background-color: coral;
+    color: black;
+}
+
+img {
+    width: 300px;
+}
