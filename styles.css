@@ -14,6 +14,8 @@ a {
     align-content: center;
 }
 
+
+
 .recipes {
     list-style: none;
     background-color: coral;
@@ -21,11 +23,20 @@ a {
 }
 
 .box {
+    padding: 75px;
+}
+.box, .inner-box {
     display: flex;
     flex-flow: column;
     padding: 8px;
+    margin: auto;
     align-items: center;
     box-sizing: border-box;
+}
+
+.box ul, .box ol {
+    padding: 0px 250px;
+    margin: 0px;
 }
 
 img {
